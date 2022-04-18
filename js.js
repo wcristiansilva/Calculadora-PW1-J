@@ -30,6 +30,8 @@ function Calculator(params) {
                     resultado.innerHTML = aux;
                 }
             }    
+        } catch (error) {
+            resultado.innerHTML = document.getElementById('resultado').innerHTML = '';
         }
     }
 }
